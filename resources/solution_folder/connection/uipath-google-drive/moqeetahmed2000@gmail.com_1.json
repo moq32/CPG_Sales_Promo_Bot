@@ -1,0 +1,29 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "moqeetahmed2000@gmail.com_1",
+    "kind": "connection",
+    "type": "uipath-google-drive",
+    "apiVersion": "integrationservice.uipath.com/v1",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "connectorName": "Google Drive",
+      "name": "moqeetahmed2000@gmail.com_1",
+      "description": null,
+      "authenticationType": "AuthenticateAfterDeployment",
+      "connectorVersion": "1.13.10",
+      "connectorKey": "uipath-google-drive",
+      "pollingInterval": 5
+    },
+    "locks": [],
+    "key": "44cb96cb-bdc0-44cb-b1f1-a51d8ea70255"
+  }
+}

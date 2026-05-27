@@ -1,0 +1,62 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "Connection",
+      "key": "ImplicitConnection",
+      "id": "ConnectionImplicitConnection",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "ImplicitConnection",
+          "isExpression": false,
+          "displayName": "uipath-uipath-http connection"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Agent 1: Load CSV Data",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "uipath-uipath-http connection",
+        "UseConnectionService": "true",
+        "Connector": "uipath-uipath-http"
+      }
+    },
+    {
+      "resource": "Connection",
+      "key": "5e30b501-e21c-445a-aec0-2aea3ea5e84b",
+      "id": "Connection5e30b501-e21c-445a-aec0-2aea3ea5e84b",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "5e30b501-e21c-445a-aec0-2aea3ea5e84b",
+          "isExpression": false,
+          "displayName": "uipath-google-sheets connection"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Agent 5: Write Dashboard Output",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "uipath-google-sheets connection",
+        "UseConnectionService": "true",
+        "Connector": "uipath-google-sheets"
+      }
+    },
+    {
+      "resource": "Connection",
+      "key": "8f359a5e-72e8-47c1-960f-d0a6aa368b88",
+      "id": "Connection8f359a5e-72e8-47c1-960f-d0a6aa368b88",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "8f359a5e-72e8-47c1-960f-d0a6aa368b88",
+          "isExpression": false,
+          "displayName": "uipath-anthropic-claude connection"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Agent 4: Generate AI Insights",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "uipath-anthropic-claude connection",
+        "UseConnectionService": "true",
+        "Connector": "uipath-anthropic-claude"
+      }
+    }
+  ]
+}
