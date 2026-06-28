@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🤖 FMCG Sales Promotion Bot
+# 🤖 CPG Sales Promotion Bot
 
-**An end-to-end agentic automation** that turns a raw FMCG sales CSV into a decision-ready promotion insight — in one orchestrated, fully traceable run.
+**An end-to-end agentic automation** that turns a raw CPG sales CSV into a decision-ready promotion insight — in one orchestrated, fully traceable run.
 
 ![UiPath](https://img.shields.io/badge/Orchestration-UiPath%20Studio-E3000B?logo=uipath&logoColor=white)
 ![Claude](https://img.shields.io/badge/AI-Anthropic%20Claude-191919?logo=anthropic&logoColor=white)
@@ -15,7 +15,7 @@
 ---
 
 ## ✨ At a glance
-- 📦 **Domain:** FMCG (Fast-Moving Consumer Goods) retail promotions
+- 📦 **Domain:** CPG (Fast-Moving Consumer Goods) retail promotions
 - ⚙️ **Orchestration:** UiPath Studio — BPMN Agentic Process, 5 named agents in a linear deterministic sequence
 - 🧠 **AI layer:** Anthropic `claude-sonnet-4-6` generates a plain-English executive summary + 2 actionable recommendations
 - 📊 **Output:** Timestamped row appended to a shared Google Sheets dashboard after every run
@@ -36,7 +36,7 @@
 
 ## 🔎 Problem
 
-Category managers in FMCG drown in spreadsheets when reviewing promotions:
+Category managers in CPG drown in spreadsheets when reviewing promotions:
 
 | Pain point | Impact |
 |---|---|
@@ -134,7 +134,7 @@ The orchestration runs them in a fixed line: `Start → Agent 1 → 2 → 3 → 
 
 ## 🗃️ Dataset
 
-**FMCG Multi-Country Sales Dataset** — public dataset from Kaggle, hosted as a CSV on Google Drive for the bot run.
+**CPG Multi-Country Sales Dataset** — public dataset from Kaggle, hosted as a CSV on Google Drive for the bot run.
 
 **Columns the agents read:**
 
@@ -167,7 +167,7 @@ Each bot run produces:
 ## 📁 Repo layout
 
 ```
-FMCG_Sales_Promo_Bot/
+CPG_Sales_Promo_Bot/
 ├── Agentic Process/
 │   ├── Process.bpmn          # BPMN orchestration diagram (UiPath Studio)
 │   ├── bindings_v2.json      # connector bindings
@@ -177,7 +177,7 @@ FMCG_Sales_Promo_Bot/
 │   └── solution_folder/      # UiPath solution resources
 ├── userProfile/              # UiPath user profile data
 ├── Dataset_fmcg_sales_5k.csv # 5k-row sample dataset
-├── FMCG_Sales_Promo_Bot.uipx # UiPath package export
-├── FMCG_Sales_Promo_Bot_Presentation.pdf  # Project presentation
+├── CPG_Sales_Promo_Bot.uipx # UiPath package export
+├── CPG_Sales_Promo_Bot_Presentation.pdf  # Project presentation
 └── CPG_Agentic_Process.pdf   # Agentic process architecture diagram
 ```
